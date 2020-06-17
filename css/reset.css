@@ -3,7 +3,8 @@
 html {
   box-sizing: border-box;
   font-size: 12px;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 *, *::before, *::after {
