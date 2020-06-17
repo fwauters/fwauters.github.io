@@ -102,7 +102,7 @@ a:hover {
 
 /* Media Queries */
 
-@media (max-width: 1800px) {
+@media (max-width: 1700px) {
   main, nav, blockquote {
     width: 60vw;
   }
@@ -110,12 +110,18 @@ a:hover {
 
 @media (max-width: 1200px) {
   main, nav, blockquote {
-    width: 90vw;
+    width: 80vw;
   }
 }
 
 @media (max-width: 800px) {
   main, nav, blockquote {
     width: 95vw;
+  }
+}
+
+@media (orientation: portrait) {
+  main, nav, blockquote {
+    width: 100%;
   }
 }
