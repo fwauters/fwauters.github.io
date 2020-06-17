@@ -31,6 +31,7 @@ p, a, li, footer {
 
 body {
   height: 100vh;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +51,7 @@ h1 {
 }
 
 .icons i {
-  padding: 18px;
+  padding: 35px 10px 10px 10px;
 }
 
 nav {
@@ -58,6 +59,10 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+nav > p {
+  padding-bottom: 15px;
 }
 
 ul {
@@ -135,5 +140,9 @@ a:hover {
   }
   h1 {
     font-size: 3rem;
+  }
+  li {
+    width: 150px;
+    height: 50px;
   }
 }
