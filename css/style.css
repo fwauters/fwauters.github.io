@@ -1,0 +1,101 @@
+/* Color Theme */
+
+html {
+  background-color: #43A047;
+	color: #FAFAFA;
+}
+
+.icons a {
+  color: #FAFAFA;
+}
+
+/* Typography */
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p, a, li, footer {
+  font-size: 1.5rem;
+}
+
+/* Custom Style */
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh 0 2vh 0;
+}
+
+h1 {
+  padding: 12px;
+}
+
+.icons i {
+  padding: 18px;
+}
+
+nav {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  background-color: #FAFAFA;
+  margin: 15px;
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+}
+
+li > a {
+  margin: auto;
+  text-align: center;
+  color: #43A047;
+}
+
+blockquote {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2vh 0 5vh 0;
+}
+
+footer {
+  padding: 15px;
+}
+
+footer > a {
+  color: #FAFAFA;
+}
+
+a:hover {
+  text-decoration: underline;
+}
