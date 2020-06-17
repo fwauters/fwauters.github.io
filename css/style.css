@@ -126,7 +126,7 @@ a:hover {
   h2 {
     font-size: 1.5rem;
   }
-  blockquote > p, blockquote > a, cite {
+  blockquote > p, footer > a, cite {
     font-size: 1rem;
   }
 }
