@@ -99,3 +99,23 @@ footer > a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Media Queries */
+
+@media (max-width: 1800px) {
+  main, nav, blockquote {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  main, nav, blockquote {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 800px) {
+  main, nav, blockquote {
+    width: 95vw;
+  }
+}
